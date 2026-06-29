@@ -1,0 +1,37 @@
+canonical_identifier: bkk:krp/KR3f0060/v1
+canonical_location: https://kanripo.org/bkk/KR3f0060/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 徐整長曆一卷
+  identifiers:
+    krp: KR3f0060
+  tags:
+    kr-categories: KR3f
+    tls-dates: dat04500
+  source:
+    repository: tls-texts
+    path: data/tls/KR3f0060.xml
+  edition:
+    short: bkk
+assets:
+  parts:
+  - {seq: 1, filename: KR3f0060_001.yaml, hash: 'sha256:648ca55992d6f96a29e89f459fc8a618a4241ec8a3b4e9e54cca94300de617c9'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR3f0060_001.markers.yaml, hash: 'sha256:8f2034c4d0f708a4a2d18dda881d5eb8b944c34bc8c431f743f67b29c5babb36'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR3f0060_CHANT_001-1a.1-h
+    span:
+    - body
+    - 0
+    - 248
+  label: 徐整長曆
+  type: section
+  level: 1
+hash: sha256:4b1daee018512ebfb8a60d12b3fb9cd7f2216e3d2f28e37ad49752fcb1ad0a53
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e

@@ -1,0 +1,34 @@
+canonical_identifier: bkk:krp/KR3f0060/CHANT/v1
+canonical_location: https://kanripo.org/bkk/KR3f0060/CHANT/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 徐整長曆一卷
+  identifiers:
+    krp: KR3f0060
+  tags:
+    kr-categories: KR3f
+    tls-dates: dat04500
+  source:
+    repository: tls-texts
+    path: data/tls/KR3f0060.xml
+  edition:
+    short: CHANT
+assets:
+  parts:
+  - {seq: 1, filename: KR3f0060_001-CHANT.yaml, hash: 'sha256:d1509dbd276d6d6b847489c9e3283627927d72e38261051a9c4f949531524246'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR3f0060_001-CHANT.markers.yaml, hash: 'sha256:6f2a0446800e33c6a9a5007198d73ac0d2fccf294df37319e3f30125ad03e3e8'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR3f0060_CHANT_001-1a.1-h
+    span:
+    - body
+    - 0
+    - 248
+  label: 徐整長曆
+  type: section
+  level: 1
+hash: sha256:00ebec141a9802c6139356c9c3b3fcd3a24f0f2450f21e80b5f1ca4ed5b25f8b
