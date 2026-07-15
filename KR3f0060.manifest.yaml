@@ -2,7 +2,7 @@ canonical_identifier: bkk:krp/KR3f0060/v1
 canonical_location: https://kanripo.org/bkk/KR3f0060/v1
 canonical_set:
   identifier: bkk:charset/cjk-v1
-  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+  hash: sha256:37995e65f5e6cdc8cfbc980fea50ec86663e3e7de950809f7e37f003754b3227
 metadata:
   title: 徐整長曆一卷
   identifiers:
@@ -17,9 +17,9 @@ metadata:
     short: bkk
 assets:
   parts:
-  - {seq: 1, filename: KR3f0060_001.yaml, hash: 'sha256:d1509dbd276d6d6b847489c9e3283627927d72e38261051a9c4f949531524246'}
+  - {seq: 1, filename: KR3f0060_001.yaml, hash: 'sha256:648ca55992d6f96a29e89f459fc8a618a4241ec8a3b4e9e54cca94300de617c9'}
   markers:
-  - {seq: 1, role: markers, filename: assets/KR3f0060_001.markers.yaml, hash: 'sha256:f27bfbb1e1e86240dda774010b04a5bbda312ba1c72868510efc585880ecf2d7'}
+  - {seq: 1, role: markers, filename: assets/KR3f0060_001.markers.yaml, hash: 'sha256:91fe38ec72cb0028e24c1b768377299bbdcfe704170340aa92f531e1b3d22fb7'}
 table_of_contents:
 - ref:
     seq: 1
@@ -31,4 +31,7 @@ table_of_contents:
   label: 徐整長曆
   type: section
   level: 1
-hash: sha256:85d80b7c463c0941da3169b0260775864cfa389c25dbf6732f28e40dfbeff369
+hash: sha256:fc4d696f89a330068e242ffac8ccf0b66187b75f3cb561fcd69fabdfbdd470ac
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:9bc9a4233a10ab6fe6494b31262c157187fd580f02a97cad91be81ccd48f7a20
